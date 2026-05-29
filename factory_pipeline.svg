@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="100%" height="100%">
+  <style>
+    .bg { fill: #01070f; rx: 20px; }
+    .border { stroke: #10233e; stroke-width: 2; fill: none; rx: 20px; }
+    .grid { stroke: #10233e; stroke-width: 0.5; stroke-dasharray: 4 8; }
+    .pulse-node { animation: pulse 3s infinite ease-in-out; }
+    .pulse-node-fast { animation: pulse 1.5s infinite ease-in-out; }
+    .flow-line { stroke: url(#grad-blue-purple); stroke-width: 3; stroke-dasharray: 10 15; animation: flow 8s linear infinite; }
+    .flow-line-reverse { stroke: url(#grad-purple-blue); stroke-width: 2; stroke-dasharray: 8 12; animation: flow-rev 6s linear infinite; }
+    .spin-element { transform-origin: 400px 200px; animation: spin 20s linear infinite; }
+    .float-element { animation: float 6s infinite ease-in-out; }
+    .text-title { font-family: 'Courier New', monospace; font-weight: bold; fill: #70A5FD; font-size: 16px; letter-spacing: 2px; }
+    .text-log { font-family: 'Courier New', monospace; fill: #8292b1; font-size: 12px; }
+    .text-val { font-family: 'Courier New', monospace; fill: #00e676; font-size: 12px; }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; filter: drop-shadow(0 0 2px #70A5FD); }
+      50% { opacity: 1; filter: drop-shadow(0 0 10px #70A5FD); }
+    }
+    @keyframes flow {
+      from { stroke-dashoffset: 200; }
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes flow-rev {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: 200; }
+    }
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="grad-blue-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0073ff" />
+      <stop offset="100%" stop-color="#ae3eff" />
+    </linearGradient>
+    <linearGradient id="grad-purple-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ae3eff" />
+      <stop offset="100%" stop-color="#00e676" />
+    </linearGradient>
+    <linearGradient id="grad-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#70A5FD" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#01070f" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" class="bg" />
+  <rect width="798" height="398" x="1" y="1" class="border" />
+
+  <!-- Grid Lines -->
+  <g class="grid">
+    <line x1="50" y1="0" x2="50" y2="400" />
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="250" y1="0" x2="250" y2="400" />
+    <line x1="350" y1="0" x2="350" y2="400" />
+    <line x1="450" y1="0" x2="450" y2="400" />
+    <line x1="550" y1="0" x2="550" y2="400" />
+    <line x1="650" y1="0" x2="650" y2="400" />
+    <line x1="750" y1="0" x2="750" y2="400" />
+    
+    <line x1="0" y1="50" x2="800" y2="50" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="250" x2="800" y2="250" />
+    <line x1="0" y1="350" x2="800" y2="350" />
+  </g>
+
+  <!-- Flowing Pipelines -->
+  <path d="M 100,100 Q 250,50 400,200 T 700,300" fill="none" class="flow-line" />
+  <path d="M 100,300 Q 300,350 450,150 T 700,100" fill="none" class="flow-line-reverse" />
+  <path d="M 50,200 H 750" fill="none" stroke="#10233e" stroke-width="1" />
+
+  <!-- Rotating Core (Single-Cell Manifold) -->
+  <g class="spin-element">
+    <circle cx="400" cy="200" r="60" fill="none" stroke="#70A5FD" stroke-width="1.5" stroke-dasharray="5 15" />
+    <circle cx="400" cy="200" r="80" fill="none" stroke="#ae3eff" stroke-width="1" stroke-dasharray="10 30" />
+    <circle cx="400" cy="200" r="40" fill="none" stroke="#00e676" stroke-width="2" stroke-dasharray="40 10" />
+  </g>
+  <circle cx="400" cy="200" r="15" fill="#70A5FD" opacity="0.8" class="pulse-node-fast" />
+
+  <!-- DNA Helix animation overlay -->
+  <g class="float-element" transform="translate(100, 20)">
+    <!-- Helix Nodes -->
+    <path d="M 100,100 Q 125,75 150,100 T 200,100" fill="none" stroke="#70A5FD" stroke-width="1.5" />
+    <path d="M 100,100 Q 125,125 150,100 T 200,100" fill="none" stroke="#ae3eff" stroke-width="1.5" />
+    <line x1="125" y1="76" x2="125" y2="124" stroke="#8292b1" stroke-width="1" stroke-dasharray="2 2" />
+    <line x1="175" y1="76" x2="175" y2="124" stroke="#8292b1" stroke-width="1" stroke-dasharray="2 2" />
+    <circle cx="125" cy="76" r="3" fill="#70A5FD" />
+    <circle cx="125" cy="124" r="3" fill="#ae3eff" />
+    <circle cx="175" cy="76" r="3" fill="#ae3eff" />
+    <circle cx="175" cy="124" r="3" fill="#70A5FD" />
+  </g>
+
+  <!-- Processing Nodes (Pulsing) -->
+  <circle cx="100" cy="100" r="6" fill="#00e676" class="pulse-node" />
+  <circle cx="700" cy="300" r="7" fill="#ae3eff" class="pulse-node" />
+  <circle cx="100" cy="300" r="5" fill="#70A5FD" class="pulse-node-fast" />
+  <circle cx="700" cy="100" r="6" fill="#0073ff" class="pulse-node" />
+
+  <!-- Control HUD Labels -->
+  <text x="30" y="40" class="text-title">SYSTEM::PIPELINE::RUNNING</text>
+  
+  <text x="30" y="340" class="text-log">TRAJECTORY FLOW RATE:</text>
+  <text x="210" y="340" class="text-val">94.8 FLOPS/CELL</text>
+  
+  <text x="30" y="360" class="text-log">MODEL CLUSTERING LOSS:</text>
+  <text x="210" y="360" class="text-val">0.0142 (KL OPTIMAL)</text>
+
+  <text x="520" y="40" class="text-log">STABILIZING CELL MANIFOLD...</text>
+  <text x="520" y="60" class="text-log">LEARNING RATE: <tspan class="text-val">1e-4</tspan></text>
+  <text x="520" y="80" class="text-log">LATENT DIMENSION: <tspan class="text-val">32D (HYPERBOLIC)</tspan></text>
+</svg>

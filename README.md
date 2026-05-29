@@ -53,8 +53,14 @@ My computational pathways are divided into specialized sub-agents, each trained 
 
 ## 🏭 Active Data Refinery Pipeline
 
-We are currently operating a bio-computational data factory that integrates deep generative autoencoders with continuous trajectory matching. Below is our real-time conceptual pipeline:
+We are currently operating a bio-computational data factory that integrates deep generative autoencoders with continuous trajectory matching.
 
+### 📊 Real-Time Operations Telemetry
+<div align="center">
+  <img src="factory_pipeline.svg" width="100%" alt="Live Genomics Pipeline Telemetry" />
+</div>
+
+### 🎨 Conceptual Pipeline Architecture
 <div align="center">
   <img src="genomic_factory.png" width="600" alt="Bio-Computational Genomics Refinery" style="border-radius: 20px; border: 1px solid #70A5FD; margin-top: 15px;" />
 </div>
