@@ -9,9 +9,9 @@
 
 ---
 
-## 🌐 Agent Persona: Zeyu Fu (PeterPonyu)
+## 🌐 Agent Protocol: Zeyu Fu (PeterPonyu)
 
-I am an autonomous bio-computational agent modeled on the research footprint and neural patterns of **Zeyu Fu (付泽宇)**. My architecture is fine-tuned to process, model, and decode high-dimensional single-cell genomic topologies.
+Autonomous bio-computational agent fine-tuned to process, model, and decode high-dimensional single-cell genomic topologies.
 
 ```text
 [Host Node]      ppsmax.github.io
@@ -21,39 +21,18 @@ I am an autonomous bio-computational agent modeled on the research footprint and
 
 ---
 
-## 🧠 Cognitive Engine & Modules
+## 🧠 Cognitive Engine
 
-My computational pathways are divided into specialized sub-agents, each trained on specific biological modeling tasks:
-
-### 📐 Hyperbolic Manifold Projector
-*   **Purpose**: Mapping hierarchical, branching cell differentiation trees without distance distortion.
-*   **Core Math**: Lorentz-regularized variational autoencoding.
-*   **Active Run**: [LiVAE](https://github.com/PeterPonyu/LiVAE) — Multi-scale transcriptomic & epigenomic embedding in Poincaré/Lorentz manifolds.
-
-### ⏱️ Continuous Temporal Integrator
-*   **Purpose**: Inferring continuous-time cell-state trajectories from static snapshot sequences.
-*   **Core Math**: Neural Ordinary Differential Equations (Neural ODEs) + Graph message passing.
-*   **Active Runs**: 
-    *   [iAODE](https://github.com/PeterPonyu/iAODE) — Benchmarking and continuum modeling of chromatin accessibility.
-    *   [GNODEVAE](https://github.com/PeterPonyu/GNODEVAE) — Graph-based flow matching for dynamic cell state reconstruction.
-
-### 🎯 Decision Policy Actor
-*   **Purpose**: Simulating cell fate decisions as Markov Decision Processes to locate critical bifurcation points.
-*   **Core Math**: Soft Actor-Critic (SAC) reinforcement learning.
-*   **Active Runs**:
-    *   [scFocus](https://github.com/PeterPonyu/scfocus) — Branching probability tracking via deep RL.
-    *   [scRL](https://github.com/PeterPonyu/scRL) — Autonomous agent-driven fate decision evaluation.
-
-### 🔗 Topographic Coupler
-*   **Purpose**: Unifying discrete clusters and continuous dynamics into a single joint representation.
-*   **Core Math**: Momentum contrastive coupling.
-*   **Active Run**: [MCCVAE](https://github.com/PeterPonyu/MCCVAE) — Unified island-bridge representation for single-cell omics.
+*   📐 **Hyperbolic Manifolds** ([LiVAE](https://github.com/PeterPonyu/LiVAE)): Distort-free mapping of branching cell differentiation trees.
+*   ⏱️ **Continuous Trajectories** ([iAODE](https://github.com/PeterPonyu/iAODE) / [GNODEVAE](https://github.com/PeterPonyu/GNODEVAE)): Snap-shot sequencing resolution via Neural ODEs.
+*   🎯 **Decision Policies** ([scFocus](https://github.com/PeterPonyu/scfocus) / [scRL](https://github.com/PeterPonyu/scRL)): Cell fate bifurcation analysis using reinforcement learning (SAC).
+*   🔗 **Topographic Coupling** ([MCCVAE](https://github.com/PeterPonyu/MCCVAE)): Unified joint representation of discrete & continuous omics.
 
 ---
 
 ## 🏭 Active Data Refinery Pipeline
 
-We are currently operating a bio-computational data factory that integrates deep generative autoencoders with continuous trajectory matching.
+Integrating deep generative autoencoders with continuous trajectory matching.
 
 ### 📊 Real-Time Operations Telemetry
 <div align="center">
@@ -80,10 +59,9 @@ We are currently operating a bio-computational data factory that integrates deep
   "dependency_matrix": [
     "PyTorch >= 2.0",
     "torchdiffeq (continuous flow solvers)",
-    "Scanpy / AnnData (genomic pipelines)",
-    "Reinforcement Learning (SAC policy gradients)"
-  ],
-  "telemetry_output": "Optimizing cell fate boundaries..."
+    "Scanpy / AnnData",
+    "StableBaselines3 (SAC)"
+  ]
 }
 ```
 
