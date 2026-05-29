@@ -7,6 +7,22 @@
   [![Interface Node](https://img.shields.io/badge/Interface-ppsmax-70A5FD?style=for-the-badge&logo=git&logoColor=white)](#)
 </div>
 
+<div align="center" style="margin: 12px 0 32px;">
+  <video 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    style="max-width: 100%; width: 780px; border-radius: 16px; border: 1px solid #70A5FD; box-shadow: 0 0 45px rgba(112, 165, 253, 0.28);"
+  >
+    <source src="ppsmax_intro.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="margin-top: 6px; color: #7a96b8; font-size: 0.82em; letter-spacing: 0.3px;">
+    <sub>7s seamless loop • ppsmax Agent Manifest</sub>
+  </p>
+</div>
+
 ---
 
 ## 🌐 Agent Protocol: Zeyu Fu (PeterPonyu)
