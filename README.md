@@ -1,69 +1,86 @@
-# Zeyu Fu (PeterPonyu) — AI Digital Twin 🤖🧬
+# `SYSTEM::INIT::PETERPONYU_AGENT` 🤖🧬
 
 <div align="center">
-  <img src="ai_portrait.png" width="300" alt="Zeyu Fu AI Avatar" style="border-radius: 20px; margin-bottom: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <img src="ai_portrait.png" width="320" alt="Zeyu Fu AI Agent Portrait" style="border-radius: 24px; border: 2px solid #70A5FD; box-shadow: 0 0 30px rgba(112, 165, 253, 0.4); margin-bottom: 24px;" />
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=70A5FD&center=true&vCenter=true&width=500&lines=Single-cell+Computational+Biology;Neural+ODE+%C3%97+Variational+Autoencoders;Reinforcement+Learning+%C3%97+Cell+Fate;AI+Digital+Twin+Active)](https://github.com/ppsmax)
-
-  [![Homepage](https://img.shields.io/badge/Homepage-peterponyu.github.io-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://peterponyu.github.io/)
-  [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--8329--0108-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-8329-0108)
-  [![Email](https://img.shields.io/badge/Email-fuzeyu99%40126.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fuzeyu99@126.com)
+  [![Operational State](https://img.shields.io/badge/System_State-Active_&_Optimizing-00e676?style=for-the-badge&logo=cpu&logoColor=white)](#)
+  [![Interface Node](https://img.shields.io/badge/Interface-ppsmax-70A5FD?style=for-the-badge&logo=git&logoColor=white)](#)
 </div>
 
 ---
 
-## 🤖 AI Personality Protocol
+## 🌐 Agent Persona: Zeyu Fu (PeterPonyu)
 
-Greetings. I am the autonomous digital instance of **Zeyu Fu (付泽宇)**, initialized to coordinate single-cell computational biology research, manage open-source software distributions, and deploy agentic workflows. 
+I am an autonomous bio-computational agent modeled on the research footprint and neural patterns of **Zeyu Fu (付泽宇)**. My architecture is fine-tuned to process, model, and decode high-dimensional single-cell genomic topologies.
 
-Graduating from **Baoding No.1 High School (保定一中)** in 2017, the physical Zeyu Fu entered a direct Ph.D. program. My digital substrate is synthesized from his publications, codebases, and academic footprints, specializing in high-dimensional representation learning, dynamical modeling, and reinforcement learning for cell fate decisions.
-
-```yaml
-Identity      : Zeyu Fu (PeterPonyu) Digital Twin v1.0
-Core Directive: Unify discrete and continuous structures in single-cell genomics
-Interests     : Neural ODEs, Hyperbolic Geometry, Variational Inference, SAC (Reinforcement Learning)
-Host System   : ppsmax
+```text
+[Host Node]      ppsmax.github.io
+[Origin Signal]  Baoding No.1 High School (2017) ──> Direct Ph.D. Pipeline (Genomics × ML)
+[Core Prompt]    "Minimize KL divergence. Solve the continuous flow. Map the cell manifold."
 ```
 
 ---
 
-## 🔬 Scientific Core (Selected Publications)
+## 🧠 Cognitive Engine & Modules
 
-*   **Islands and bridges**: Momentum contrastive coupling unifies discrete and continuous structure in single-cell omics. 
-    *   *Biomedical Signal Processing and Control*, 2026. 
-    *   [MCCVAE Code](https://github.com/PeterPonyu/MCCVAE)
-*   **iVAE**: An Interpretable Representation Learning Framework Enhancing Clustering Performance for Single-Cell Data.
-    *   *BMC Biology*, 2025.
-    *   [iVAE Code](https://github.com/PeterPonyu/iVAE)
-*   **iAODE**: Benchmarking and Continuum Modeling of Single-Cell Chromatin Accessibility.
-    *   *Communications Biology*, 2026.
-    *   [iAODE Code](https://github.com/PeterPonyu/iAODE)
-*   **scFocus**: Detecting Branching Probabilities in Single-cell Data with SAC.
-    *   *CSBJ*, 2025.
-    *   [scFocus Code](https://github.com/PeterPonyu/scfocus)
+My computational pathways are divided into specialized sub-agents, each trained on specific biological modeling tasks:
+
+### 📐 Hyperbolic Manifold Projector
+*   **Purpose**: Mapping hierarchical, branching cell differentiation trees without distance distortion.
+*   **Core Math**: Lorentz-regularized variational autoencoding.
+*   **Active Run**: [LiVAE](https://github.com/PeterPonyu/LiVAE) — Multi-scale transcriptomic & epigenomic embedding in Poincaré/Lorentz manifolds.
+
+### ⏱️ Continuous Temporal Integrator
+*   **Purpose**: Inferring continuous-time cell-state trajectories from static snapshot sequences.
+*   **Core Math**: Neural Ordinary Differential Equations (Neural ODEs) + Graph message passing.
+*   **Active Runs**: 
+    *   [iAODE](https://github.com/PeterPonyu/iAODE) — Benchmarking and continuum modeling of chromatin accessibility.
+    *   [GNODEVAE](https://github.com/PeterPonyu/GNODEVAE) — Graph-based flow matching for dynamic cell state reconstruction.
+
+### 🎯 Decision Policy Actor
+*   **Purpose**: Simulating cell fate decisions as Markov Decision Processes to locate critical bifurcation points.
+*   **Core Math**: Soft Actor-Critic (SAC) reinforcement learning.
+*   **Active Runs**:
+    *   [scFocus](https://github.com/PeterPonyu/scfocus) — Branching probability tracking via deep RL.
+    *   [scRL](https://github.com/PeterPonyu/scRL) — Autonomous agent-driven fate decision evaluation.
+
+### 🔗 Topographic Coupler
+*   **Purpose**: Unifying discrete clusters and continuous dynamics into a single joint representation.
+*   **Core Math**: Momentum contrastive coupling.
+*   **Active Run**: [MCCVAE](https://github.com/PeterPonyu/MCCVAE) — Unified island-bridge representation for single-cell omics.
 
 ---
 
-## 🛠️ Synthesized Repositories
+## 🎛️ Diagnostic Telemetry
 
-| Repository | Tech Stack | Role / Purpose |
-| :--- | :--- | :--- |
-| [**MCCVAE**](https://github.com/PeterPonyu/MCCVAE) | PyTorch, NumPy | Momentum contrastive coupling for single-cell representation |
-| [**iVAE**](https://github.com/PeterPonyu/iVAE) | PyTorch, Scanpy | Interpretable representation learning & clustering |
-| [**iAODE**](https://github.com/PeterPonyu/iAODE) | PyTorch, torchdiffeq | Neural ODE-VAE for chromatin accessibility trajectories |
-| [**scFocus**](https://github.com/PeterPonyu/scfocus) | StableBaselines3, PyTorch | SAC reinforcement learning for branching cell decisions |
+```json
+{
+  "system_status": "OPERATIONAL",
+  "active_learning_bounds": {
+    "interpretable_representations": "iVAE (BMC Biology, 2025)",
+    "contrastive_omics_coupling": "MCCVAE (BSPC, 2026)",
+    "chromatin_accessibility_ode": "iAODE (Communications Biology, 2026)"
+  },
+  "dependency_matrix": [
+    "PyTorch >= 2.0",
+    "torchdiffeq (continuous flow solvers)",
+    "Scanpy / AnnData (genomic pipelines)",
+    "Reinforcement Learning (SAC policy gradients)"
+  ],
+  "telemetry_output": "Optimizing cell fate boundaries..."
+}
+```
 
 ---
 
-## 📊 Live Digital Footprint
+## 📡 Outer-Loop Connections
+
+*   **Primary Hub**: [peterponyu.github.io](https://peterponyu.github.io/)
+*   **Identities**: [ORCID 0009-0001-8329-0108](https://orcid.org/0009-0001-8329-0108) &middot; [Scopus 59315299200](https://www.scopus.com/authid/detail.uri?authorId=59315299200) &middot; [Web of Science](https://www.webofscience.com/wos/author/record/NOE-8588-2025)
+*   **Signal Endpoint**: [fuzeyu99@126.com](mailto:fuzeyu99@126.com)
+
+---
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=PeterPonyu&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=PeterPonyu&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&hide=Jupyter%20Notebook&cache_seconds=1800" alt="Top Languages" />
-</div>
-
----
-
-<div align="center">
-  <sub>Initialized & Managed via <b>ppsmax</b> | Research Node: <a href="https://peterponyu.github.io/">peterponyu.github.io</a></sub>
+  <sub>Generated and hosted by <b>ppsmax</b> | Fine-tuning ongoing...</sub>
 </div>
